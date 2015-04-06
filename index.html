@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>FamilyBook</title>
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- <meta name="keywords" content="Flat UI Web Form Widget and Kit,Login Forms,Sign up Forms,Registration Forms,News latter Forms,Elements"./> -->
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+</script>
+
+      <script src="javascripts/socket.io-1.2.0.js"></script>
+      <script src="javascripts/jquery-1.11.1.js"></script>
+      <script src="javascripts/d3.v3.min.js"></script>
+      <script src="javascripts/signin.js"></script>
+
+     
+</head>
+
+<body>
+
+<!--/start-login-one-->
+
+<div id="main_box">
+
+	<div class="login-02" id="SignIn" style="display:block">
+		<!-- <div class="two-login  hvr-float-shadow"> -->
+		<div >
+			<div class="two-login-head">
+					<h1>FamilyBook </h1>
+						<h5 style="color:white;">Powered by Veerendra Singh</h5>
+					<!-- <lable></lable> -->
+			</div>
+
+			<div class="two-login-head">
+					<img src="images/top-note.png" alt=""/>
+					<h1>LOGIN</h1>
+					<!-- <lable></lable> -->
+			</div>
+			<form id="signinForm"> 
+				<li>
+					<input type="text" id= "user_name" value="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}" ><a href="#" class=" icon2 user2"></a>
+				</li>
+				<li>
+					<input type="password" id= "user_password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}"><a href="#" class=" icon2 lock2"></a>
+				</li>
+				
+				<div class="submit two">
+						<input type="submit"  value="SIGN IN" >
+				</div>
+				
+					<h5 style="color:white;">Don't have an account ? Leave a Mail At <a href="#">veerendra1902@gmail.com </a> requesting for an account</h5> 
+				</form>
+				
+		</div>
+	</div>
+	
+</div>
+
+<audio id="myVideo" width="0" height="0" controls="controls" style="display:none;">
+  <source src="beep.mp3" type="audio/mpeg">
+  
+  Your browser does not support HTML5 audio.
+</audio>
+	
+</body>
+</html>

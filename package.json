@@ -1,8 +1,8 @@
 
 {
-  "name": "node-js-getting-started",
+  "name": "familybook",
   "version": "0.1.2",
-  "description": "A sample Node.js app using Express 4",
+  "description": "Web Chat Application",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/veerendra1902/node-js-getting-started"
+    "url": "https://github.com/veerendra1902/familybook"
   },
   "keywords": [
     "node",

@@ -1,0 +1,35 @@
+<div class="login-02" id="temp_veerendra" style="display:none">
+			<!-- <div class="two-login  hvr-float-shadow"> -->
+			<div>
+			<div class="two-login-head">
+					<h1>FamilyBook </h1>
+						<h5 style="color:white;">Powered by Veerendra Singh</h5>
+					<!-- <lable></lable> -->
+			</div>
+				<div class="two-login-head">
+						<h1 id="temp_veerendra_header"> </h1>
+					
+				</div>
+				
+				<br><br>
+				<div id="temp_veerendra_messages">
+				    
+				</div>
+				<br>
+				<div ><p id="typeing_status_temp_veerendra" style="color:red;"> </p></div>
+				<div class="login-02">
+
+					<!-- <p id="typeing_status_swati_veerendra" style="color:red;"> </p> -->
+					 <form id="temp_veerendra_chat" action="">
+					 <li>
+						<input type="text" id="temp_veerendra_input" value="Enter Meesage" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Message';}" >
+					</li>
+							<!-- <input id="swati_veerendra_input" autocomplete="off" width="50" height="10"/><button id="Send">Send</button> -->
+					</form>
+				</div>
+				<div class="submit two">
+						<input type="submit" onclick="gotoList()" value="Go back to friends list" >
+				</div>
+		
+			</div>
+		</div>
